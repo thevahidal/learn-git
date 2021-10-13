@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+.sidebar {
+  background-color: red;
+  position: fixed;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: purple;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+}
+
+.tab {
+
+  padding: 20px;
+}
+
+
+
+.tab:hover, .active {
+  font-weight: bold;
+  background-color: yellow;
+}
